@@ -38,8 +38,8 @@
         <!-- Core plugins -->
  
  
-    <plugin name="cordova-sqlite-storage" />
-    
+    <!-- <plugin name="cordova-sqlite-storage" />   -->
+    <plugin name="io.litehelpers.cordova.sqlite" spec="0.7.6" source="pgb" />
 
             
     
