@@ -5,7 +5,7 @@
         version     = "1.0.0"
         versionCode = "100" > <!-- versionCode is optional and Android only -->
         <!-- Tool Set Version -->        
-        <preference name='phonegap-version' value='cli-6.5.0' />
+        <preference name='phonegap-version' value='cli-5.2.0' />
 
         <name>Sql Debug Kathriona</name>
         <description>Debug mystery SQLite issue</description>
@@ -38,8 +38,8 @@
         <!-- Core plugins -->
  
  
-    <!-- <plugin name="cordova-sqlite-storage" />   -->
-    <plugin name="io.litehelpers.cordova.sqlite" spec="0.7.6" source="pgb" />
+    <plugin name="cordova-sqlite-storage" />  
+    
 
             
     
