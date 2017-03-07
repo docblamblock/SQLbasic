@@ -8,6 +8,8 @@ myDB = window.sqlitePlugin.openDatabase({name: "mySQLite.db", location: 'default
 }
 //Create new table
 $("#createTable").click(function(){
+
+  alert("about to create table...");
     myDB.transaction(function(transaction) {
     transaction.executeSql('CREATE TABLE IF NOT EXISTS phonegap_pro (id integer primary key, title text, desc text)', [],
         function(tx, result) {
