@@ -38,7 +38,7 @@
         <!-- Core plugins -->
  
  
-      <plugin name="cordova-sqlite-storage" /> 
+      <plugin name="cordova-sqlite-evcore-extbuild-free" /> 
     
             
     
